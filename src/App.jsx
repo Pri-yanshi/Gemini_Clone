@@ -1,11 +1,14 @@
 import React from 'react'
+import './index.css'
 import Sidebar from './components/Sidebar';
+import Main from './components/Main';
 
 function App() {
   return (
     <>
-      <div className="app">
+      <div className="flex ">
         <Sidebar/>
+        <Main/>
       </div>
     </>
   )
