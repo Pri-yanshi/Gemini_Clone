@@ -6,7 +6,7 @@ import { faCompass, faLightbulb, faMessage, faCode, faImages, faMicrophone, faPa
 const Main = () => {
   return (
     <>
-      <div className=" h-screen overflow-auto md:min-h-[100vh] pb-[15vh] relative flex-1">
+      <div className=" h-screen  md:min-h-[100vh] pb-[15vh] relative flex-1">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row items-center justify-between text-[18px] md:text-[22px] p-[15px] md:p-[20px] text-gray-500">
           <p>Gemini</p>
