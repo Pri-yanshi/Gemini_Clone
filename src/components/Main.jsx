@@ -6,7 +6,7 @@ import { faCompass, faLightbulb, faMessage, faCode, faImages, faMicrophone, faPa
 const Main = () => {
   return (
     <>
-      <div className="min-h-[102vh]  md:min-h-[100vh] pb-[10vh] relative flex-1">
+      <div className="min-h-[102vh]  md:min-h-[100vh] pb-[12vh] relative flex-1">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row items-center justify-between text-[18px] md:text-[22px] p-[15px] md:p-[20px] text-gray-500">
           <p>Gemini</p>
@@ -66,24 +66,24 @@ const Main = () => {
           </div>
 
           {/* Bottom Input Section */}
-          <div className="absolute bottom-0 w-auto md:w-full md:max-w-[900px] px-4 mx-auto">
-            <div className="flex items-center justify-between gap-[10px] bg-slate-300 p-[8px] rounded-[50px]">
+          <div className="absolute bottom-0 right-[-16px] w-auto md:w-full max-w-[500px] md:max-w-[900px] px-3 md:px-4 mx-auto">
+            <div className="flex items-center justify-between gap-[5px] md:gap-[10px] bg-slate-300 p-[8px] rounded-[50px]">
               <input
-                className="flex-1 border-none bg-transparent focus:outline-none text-[16px] md:text-[20px] p-[5px] text-black"
+                className="flex-1 border-none bg-transparent focus:outline-none text-[14px] md:text-[20px] p-[2px] md:p-[2px] text-black"
                 type="text"
                 placeholder="Enter a prompt here"
               />
-              <div className="flex items-center gap-[10px]">
+              <div className="flex items-center gap-[7px] md:gap-[10px] lg:gap-[10px]">
                 <FontAwesomeIcon
-                  className="cursor-pointer w-[24px] h-[24px]"
+                  className="cursor-pointer w-[18px] h-[18px] md:w-[24px] md:h-[24px]"
                   icon={faImages}
                 />
                 <FontAwesomeIcon
-                  className="cursor-pointer w-[24px] h-[24px]"
+                  className="cursor-pointer w-[18px] h-[18px] md:w-[24px] md:h-[24px]"
                   icon={faMicrophone}
                 />
                 <FontAwesomeIcon
-                  className="cursor-pointer w-[24px] h-[24px]"
+                  className="cursor-pointer w-[18px] h-[18px] md:w-[24px] md:h-[24px]"
                   icon={faPaperPlane}
                 />
               </div>
