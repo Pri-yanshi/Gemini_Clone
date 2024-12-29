@@ -6,7 +6,7 @@ import { faCompass, faLightbulb, faMessage, faCode, faImages, faMicrophone, faPa
 const Main = () => {
   return (
     <>
-      <div className="min-h-[102vh]  md:min-h-[100vh] pb-[12vh] relative flex-1">
+      <div className="min-h-[102vh]  md:min-h-[100vh] pb-[12vh]  relative flex-1">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row items-center justify-between text-[18px] md:text-[22px] p-[15px] md:p-[20px] text-gray-500">
           <p>Gemini</p>
@@ -66,7 +66,7 @@ const Main = () => {
           </div>
 
           {/* Bottom Input Section */}
-          <div className="absolute bottom-0 right-[-16px] w-auto md:w-full max-w-[500px] md:max-w-[900px] px-3 md:px-4 mx-auto">
+          <div className="absolute bottom-0  w-auto md:w-full max-w-[700px] md:max-w-[900px] px-3 md:px-4 mx-auto">
             <div className="flex items-center justify-between gap-[5px] md:gap-[10px] bg-slate-300 p-[8px] rounded-[50px]">
               <input
                 className="flex-1 border-none bg-transparent focus:outline-none text-[14px] md:text-[20px] p-[2px] md:p-[2px] text-black"
