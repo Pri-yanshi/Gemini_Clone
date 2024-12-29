@@ -6,7 +6,7 @@ import { faCompass, faLightbulb, faMessage, faCode, faImages, faMicrophone, faPa
 const Main = () => {
   return (
     <>
-      <div className=" h-screen  md:min-h-[100vh] pb-[15vh] relative flex-1">
+      <div className="min-h-[102vh]  md:min-h-[100vh] pb-[10vh] relative flex-1">
         {/* Top Section */}
         <div className="flex flex-col md:flex-row items-center justify-between text-[18px] md:text-[22px] p-[15px] md:p-[20px] text-gray-500">
           <p>Gemini</p>
@@ -14,7 +14,7 @@ const Main = () => {
         </div>
 
         {/* Main Content */}
-        <div className="max-w-[900px] mx-auto px-4 md:px-0">
+        <div className="w-full   md:max-w-[900px] mx-auto px-4 md:px-0">
           {/* Heading Section */}
           <div className="mt-[10px] mb-[10px] text-[30px] md:text-[50px] font-bold text-gray-300 p-[12px] md:text-start text-center">
             <p>
@@ -66,7 +66,7 @@ const Main = () => {
           </div>
 
           {/* Bottom Input Section */}
-          <div className="absolute bottom-0 w-full max-w-[900px] px-[10px] mx-auto">
+          <div className="absolute bottom-0 w-auto md:w-full md:max-w-[900px] px-4 mx-auto">
             <div className="flex items-center justify-between gap-[10px] bg-slate-300 p-[8px] rounded-[50px]">
               <input
                 className="flex-1 border-none bg-transparent focus:outline-none text-[16px] md:text-[20px] p-[5px] text-black"

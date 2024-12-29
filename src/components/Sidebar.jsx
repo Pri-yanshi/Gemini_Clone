@@ -6,7 +6,7 @@ function Sidebar(){
   const[extend,setExtend]=useState(false)
   return (
     <>
-      <div className="h-screen overflow-auto md:min-h-[100vh] inline-flex p-[10px] flex-col justify-between bg-slate-200">
+      <div className="min-h-[102vh] mb-0 md:min-h-[100vh] inline-flex p-[10px] flex-col justify-between bg-slate-200">
         <div className="top">
             <FontAwesomeIcon onClick={()=>setExtend(prev=>!prev)} icon={faBars} className=' size-5 ml-[10px] mt-2 cursor-pointer block '></FontAwesomeIcon>
             <div className="inline-flex mt-[40px] cursor-pointer gap-[8px] items-center justify-between bg-slate-500 rounded-[50px] p-[10px]">
